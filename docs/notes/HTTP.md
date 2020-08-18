@@ -282,7 +282,27 @@ CONNECT www.example.com:443 HTTP/1.1
 | Server | HTTP 服务器的安装信息 |
 | Vary | 代理服务器缓存的管理信息 |
 | WWW-Authenticate | 服务器对客户端的认证信息 |
-
+| 首部字段名 | 说明 |
+| :--: | :--: |
+| Accept-Ranges | 是否接受字节范围请求 |
+| Age | 推算资源创建经过时间 |
+| ETag | 资源的匹配信息 |
+| Location | 令客户端重定向至指定 URI |
+| Proxy-Authenticate | 代理服务器对客户端的认证信息 |
+| Retry-After | 对再次发起请求的时机要求 |
+| Server | HTTP 服务器的安装信息 |
+| Vary | 代理服务器缓存的管理信息 |
+| WWW-Authenticate | 服务器对客户端的认证信息 || 首部字段名 | 说明 |
+                                   | :--: | :--: |
+                                   | Accept-Ranges | 是否接受字节范围请求 |
+                                   | Age | 推算资源创建经过时间 |
+                                   | ETag | 资源的匹配信息 |
+                                   | Location | 令客户端重定向至指定 URI |
+                                   | Proxy-Authenticate | 代理服务器对客户端的认证信息 |
+                                   | Retry-After | 对再次发起请求的时机要求 |
+                                   | Server | HTTP 服务器的安装信息 |
+                                   | Vary | 代理服务器缓存的管理信息 |
+                                   | WWW-Authenticate | 服务器对客户端的认证信息 |
 ## 实体首部字段
 
 | 首部字段名 | 说明 |
